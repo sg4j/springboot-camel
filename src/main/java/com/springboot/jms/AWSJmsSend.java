@@ -51,7 +51,7 @@ public class AWSJmsSend {
 
     public static void testAWSQueue() throws Exception {
 
-        AmazonSQS sqs = new AmazonSQSClient(new BasicAWSCredentials("AKIAJUCDMJM3ON7ZLKTA","VN718pYvayyWx5jiE+oSxracr3jOQh9iHYbypJ9I"));
+        AmazonSQS sqs = new AmazonSQSClient(new BasicAWSCredentials("",""));
         Region usWest2 = Region.getRegion(Regions.US_EAST_1);
         sqs.setRegion(usWest2);
 
